@@ -1,6 +1,6 @@
 # Snackstore
 
-Snackstore is a food-ordering application it has all the functionalities which a normal e-ecommerce store has like user-authentication, food-listings, real-time cart component and a Beautiful User-Interface
+Snackstore is a food-ordering application it has all the functionalities which a normal e-ecommerce store has like user-authentication, food-listings, real-time cart component and a beautiful User-Interface
 
 ![IMG](./screenshot.png)
 
@@ -17,7 +17,7 @@ This app is build using React, Context API and Firebase Authentication Service.
 
 ### ToDo
 
-- [ ] - Add Strip as a payment gateway.
-- [ ] - Add a Backend System to Manage Data.
+- [ ]  Add Strip as a payment gateway.
+- [ ]  Add a Backend System to Manage Data.
 
 **Note - You need your own firebase configuration file in order to run this app locally**
