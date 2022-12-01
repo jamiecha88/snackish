@@ -4,7 +4,7 @@ Snackstore is a food-ordering application it has all the functionalities which a
 
 ![IMG](./screenshot.png)
 
-Check out the live demo: https://snackstore-react.web.app/
+Check out the live demo: coming soon!
 
 This app is build using React, Context API and Firebase Authentication Service.
 
