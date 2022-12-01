@@ -1,0 +1,126 @@
+.home__cover {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../../assets/cover-design.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.home__container {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__container > h1 {
+  font-weight: 500;
+  font-size: 2.1rem;
+  margin-bottom: 3rem;
+}
+
+.home__options {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.home__search {
+  padding: 12px 16px;
+  border: none;
+  font-size: 1.2rem;
+  flex: 1;
+}
+
+.home__search:hover {
+  border: solid 1px black;
+}
+
+.home__options > button {
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  border: none;
+  padding: 12px 16px;
+}
+
+.home__options > button:hover {
+  background-color: #333333;
+}
+
+.footer__logo {
+  display: flex;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.footer__logoFirst {
+  font-weight: 400;
+  color: white;
+}
+
+.footer__logoSecond {
+  font-weight: 900;
+  color: var(--primary-color);
+}
+
+.home__footer {
+  display: flex;
+  padding: 3rem 5rem;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__footerleft > span {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.home__footerleft > span > svg {
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 720px) {
+  .home__cover {
+    background-position: center;
+  }
+  .home__container {
+    padding: 0 2rem;
+  }
+  .home__container > h1 {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+  }
+
+  .home__search {
+    padding: 10px 12px;
+    width: 90%;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .home__options {
+    flex-direction: column;
+  }
+
+  .home__options > button {
+    margin-top: 1.2rem;
+    padding: 10px 12px;
+    font-size: 1rem;
+  }
+  .home__footer {
+    flex-direction: column;
+  }
+  .home__footerLogo {
+    margin-bottom: 1rem;
+  }
+}
