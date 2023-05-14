@@ -1,6 +1,6 @@
-# Snackstore
+# Snackish
 
-Snackstore is a food-ordering application it has all the functionalities which a normal e-ecommerce store has like user-authentication, food-listings, real-time cart component and a beautiful User-Interface
+Snackish is a food-ordering application it has all the functionalities which a normal e-ecommerce store has like user-authentication, food-listings, real-time cart component and a beautiful User-Interface
 
 ![IMG](./screenshot.png)
 
